@@ -20,5 +20,4 @@ public class Operator_9 {
 		
 		System.out.printf("sum %d\navg %d",sum,avg);
 	}
-
 }
