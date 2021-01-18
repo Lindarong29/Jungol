@@ -9,7 +9,6 @@ public class Operator_9 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("성적을 입력하세요.(국어 영어 수학 컴퓨터 순으로)");
 		
 		int a = scanner.nextInt();
 		int b = scanner.nextInt();
@@ -19,7 +18,7 @@ public class Operator_9 {
 		int sum = a+b+c+d;
 		int avg = sum / 4 ;
 		
-		System.out.printf("sum : %d\navg : %d",sum,avg);
+		System.out.printf("sum %d\navg %d",sum,avg);
 	}
 
 }
